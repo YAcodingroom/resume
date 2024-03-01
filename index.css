@@ -1,0 +1,201 @@
+body {
+	font-family: 'Play', 'Noto Serif TC', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	background-color: #fcfaf2;
+}
+
+a {
+	color: #434343;
+	text-decoration: none;
+}
+
+header {
+	position: sticky;
+	z-index: 99;
+	top: 0;
+	left: 0;
+}
+
+header .navbar {
+	background-color: #fcfaf2;
+}
+
+header .navbar-brand {
+	letter-spacing: 0.3rem;
+}
+
+.container {
+	margin: 1rem auto;
+	padding: 0 2rem;
+}
+
+.container-title {
+	margin-bottom: 1.6rem;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+main .portfolio,
+main .about-me {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.2rem 0.8rem;
+	justify-content: space-around;
+}
+
+/* home page */
+.portfolio .card {
+	flex-basis: 350px;
+	border-color: #e9ecef;
+}
+
+.card .card-img-top {
+	border-bottom: 1px solid #e9ecef;
+	overflow: hidden;
+}
+
+.card .card-img-top img {
+	height: 230px;
+	object-fit: cover;
+	object-position: center 10%;
+	transition: 0.3s;
+}
+
+.card .card-img-top img:hover {
+	transform: scale(1.2);
+}
+
+.card-body .focus-pill {
+	font-size: 0.7rem;
+}
+
+.card-body .focus-group {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.8rem;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.card-body .focus-group p:nth-child(odd) {
+	background-color: #fedfe1;
+}
+.card-body .focus-group p:nth-child(even) {
+	background-color: #81c7d4;
+}
+.card-body .focus-pill {
+	margin: 0;
+	padding: 1rem;
+}
+
+.card-body .repo-link {
+	text-align: end;
+}
+
+.card-body .repo-link a {
+	color: #005caf;
+	font-size: 0.9rem;
+}
+
+.card-footer .card-text,
+footer.container {
+	color: #787878;
+	font-size: 0.8rem;
+}
+
+footer.container {
+	margin-top: 1.6rem;
+	text-align: center;
+}
+
+/* about me page */
+.profile-section .profile-avatar {
+	margin-bottom: 2.5rem;
+}
+.profile-section .profile-content {
+	margin: 0 2rem;
+}
+
+.contact-section .contact-me a {
+	margin: 0 1rem;
+	font-size: 1.5rem;
+}
+
+/* experience */
+.experience .job-company {
+	position: relative;
+	display: block;
+	border-top: 1px solid#434343;
+	color: #0d5661;
+	font-size: 1.2rem;
+}
+.experience .job-company .fa-angle-down,
+.experience .job-year {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #4d5139;
+	font-size: 0.8rem;
+}
+
+.experience .job-position {
+	position: relative;
+	display: block;
+	margin-bottom: 0.8rem;
+	font-size: 1rem;
+}
+.experience .job-description {
+	margin-bottom: 0.8rem;
+}
+
+/* skills */
+.skills {
+	margin-top: 1.2rem;
+}
+
+/* responsive */
+@media (min-width: 992px) {
+	/* home page */
+	.navbar .nav-link::after {
+		content: '｜';
+	}
+
+	.card-body .repo-link a:hover,
+	.contact-section .contact-me a:hover {
+		color: #bf6766;
+	}
+
+	/* about me */
+	.profile-section {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	.profile-section .profile-avatar {
+		margin-bottom: 0;
+	}
+
+	.profile-section .profile-content p {
+		padding: 0.8rem;
+		font-size: 1.2rem;
+	}
+
+	/* experience */
+	.experience,
+	.skills,
+	.other-activities {
+		margin: 0 auto;
+		width: 80%;
+	}
+	.experience h2 {
+		margin-top: 2rem;
+	}
+	.experience p {
+		font-size: 1.4rem;
+	}
+}
