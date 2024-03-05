@@ -9,7 +9,7 @@
 
 # Links
 
-- Live Site URL:
+- Live Site URL: https://yacodingroom.github.io/resume/
 
 # Built with
 
