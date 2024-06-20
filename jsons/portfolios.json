@@ -1,14 +1,20 @@
 {
 	"portfolios": [
 		{
-			"title": "Post-it application",
-			"skills": ["React", "JavaScript", "Git & GitHub"],
-			"content_zh": "這是一個使用 React 建立便條紙的練習。使用者可以寫下便條紙並且將資料儲存在 local storage 中。",
-			"content_en": "This is a exercise to build Post-it app with React. The user can write down the note, and the data will store in local storage.",
+			"title": "WorldWise tracks the adventures",
+			"skills": [
+				"React",
+				"React Router",
+				"React Leaflet & Leaflet",
+				"React Datepicker",
+				"CSS Modules"
+			],
+			"content_zh": "使用 React 和 React Component Libraries 建立 WorldWise 網站的練習。用戶在地圖上追蹤他們的冒險經歷，為城市寫下一些備忘錄。",
+			"content_en": "This is a exercise to build WorldWise website with React & React Component Libraries. The user tracks their adventures on the map, write down some memo for cities.",
 			"live_url": "",
-			"image_url": "./images/post-it/added-notes.png",
-			"repo_url": "https://github.com/YAcodingroom/post-it",
-			"copyright": "Exercise by The Complete 2024 Web Development Bootcamp, coded by YAL."
+			"image_url": "./images/worldwise-page.png",
+			"repo_url": "https://github.com/YAcodingroom/worldwise",
+			"copyright": "Exercise by The Ultimate React Course 2024, coded by YAL."
 		},
 		{
 			"title": "Pizza menu",
@@ -16,9 +22,29 @@
 			"content_zh": "這是一個使用 React 建立披薩菜單的練習。用戶可以看到披薩的數據包括照片、價格、成分等。",
 			"content_en": "This is a exercise to build pizza menu with React. The user can see pizza's data include price, ingredients, etc.",
 			"live_url": "",
-			"image_url": "./images/pizza-menu/Pizza menu.png",
+			"image_url": "./images/pizza-menu.png",
 			"repo_url": "https://github.com/YAcodingroom/pizza-menu",
 			"copyright": "Exercise by The Ultimate React Course 2024, coded by YAL."
+		},
+		{
+			"title": "Post-it application",
+			"skills": ["React", "JavaScript", "Git & GitHub"],
+			"content_zh": "這是一個使用 React 建立便條紙的練習。使用者可以寫下便條紙並且將資料儲存在 local storage 中。",
+			"content_en": "This is a exercise to build Post-it app with React. The user can write down the note, and the data will store in local storage.",
+			"live_url": "",
+			"image_url": "./images/post-it.png",
+			"repo_url": "https://github.com/YAcodingroom/post-it",
+			"copyright": "Exercise by The Complete 2024 Web Development Bootcamp, coded by YAL."
+		},
+		{
+			"title": "Mapty application",
+			"skills": ["HTML+CSS", "JavaScript", "Leaflet"],
+			"content_zh": "使用者可以用 app 紀錄鍛鍊的數據：例如跑步或騎單車，其中包含了距離、時間、位置，更使用了 Geolocation API 讓地圖顯示在精準的位置。",
+			"content_en": "In the exercise, users engage with a web app for logging running and cycling workouts with location data. They input workout details like type (running or cycling), distance, duration, and location using the Geolocation API for accurate tracking.",
+			"live_url": "https://yacodingroom.github.io/mapty/",
+			"image_url": "./images/mapty.png",
+			"repo_url": "https://github.com/YAcodingroom/mapty/tree/main",
+			"copyright": "Exercise by The Complete JavaScript Course 2024, coded by YAL."
 		},
 		{
 			"title": "Interactive rating page",
@@ -26,7 +52,7 @@
 			"content_zh": "一個簡單的頁面，讓使用者評分，並在提交後顯示'感謝卡'以及分數。",
 			"content_en": "Allow users to rate, and upon submission, show a 'Thank you' card.",
 			"live_url": "https://yacodingroom.github.io/interactive-rating/",
-			"image_url": "./images/interactive-rating/interactive-rating_notebook.png",
+			"image_url": "./images/interactive-rating.png",
 			"repo_url": "https://github.com/YAcodingroom/interactive-rating",
 			"copyright": "Challenge by Frontend Mentor, coded by YAL."
 		},
@@ -36,7 +62,7 @@
 			"content_zh": "使用 flexbox 及 響應式設計建立 3 列預覽卡；在手機裝置上呈現縱向排列，到了平板裝置時，就變成橫向排列。",
 			"content_en": "Use flexbox and responsive design to build the preview card. On mobile devices, they are arranged vertically, but on tablet devices, they are arranged horizontally.",
 			"live_url": "https://yacodingroom.github.io/3-column-preview-card/",
-			"image_url": "./images/3-column-preview-card/3-column-preview-card_notebook.png",
+			"image_url": "./images/3-column-preview-card.png",
 			"repo_url": "https://github.com/YAcodingroom/3-column-preview-card",
 			"copyright": "Challenge by Frontend Mentor, coded by YAL."
 		},
@@ -46,7 +72,7 @@
 			"content_zh": "利用 jQuery 和 CSS 動畫來旋轉箭頭方向，點擊並展開文字內容。",
 			"content_en": "Utilize jQuery and CSS animations to rotate the arrow direction upon click and expand the text content.",
 			"live_url": "https://yacodingroom.github.io/faq-accordion-card/",
-			"image_url": "./images/faq-accordion-card/faq-accordion-card_notebook.png",
+			"image_url": "./images/faq-accordion-card.png",
 			"repo_url": "https://github.com/YAcodingroom/faq-accordion-card?tab=readme-ov-file",
 			"copyright": "Challenge by Frontend Mentor, coded by YAL."
 		},
@@ -56,7 +82,7 @@
 			"content_zh": "使用 jQuery 驗證外掛程式來驗證表單並顯示自訂訊息。",
 			"content_en": "Use jQuery validation plugin to validate the form and display custom message.",
 			"live_url": "https://yacodingroom.github.io/intro-with-signup-form/",
-			"image_url": "./images/intro-with-signup-form/intro-with-signup-form_notebook.png",
+			"image_url": "./images/intro-with-signup-form.png",
 			"repo_url": "https://github.com/YAcodingroom/intro-with-signup-form",
 			"copyright": "Challenge by Frontend Mentor, coded by YAL."
 		},
@@ -73,7 +99,7 @@
 			"content_zh": "使用 express.js 和 express-handlebars 建立一個餐廳清單 app，使用者可以查看所有的餐廳、也可以點進去看餐廳的簡介，還能用關鍵字搜尋餐廳或是餐廳分類。",
 			"content_en": "Use express.js and express-handlebars to build a restaurant list app. Users can view all restaurants list, and see the detail about the restaurant. And users can use keyword to search restaurant name or category.",
 			"live_url": "",
-			"image_url": "./images/restaurant-list/detail-page.png",
+			"image_url": "./images/restaurant-page.png",
 			"repo_url": "https://github.com/YAcodingroom/restaurant-list",
 			"copyright": "Challenge by ALPHA Camp, coded by YAL."
 		}
