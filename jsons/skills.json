@@ -1,0 +1,48 @@
+{
+	"skills": [
+		{
+			"skill": "Copywriting",
+			"level": "80%"
+		},
+		{
+			"skill": "Employee Training",
+			"level": "90%"
+		},
+		{
+			"skill": "Data Analysis",
+			"level": "80%"
+		},
+		{
+			"skill": "Workflow Design",
+			"level": "90%"
+		},
+		{
+			"skill": "HTML",
+			"level": "90%"
+		},
+		{
+			"skill": "CSS",
+			"level": "85%"
+		},
+		{
+			"skill": "Bootstrap",
+			"level": "85%"
+		},
+		{
+			"skill": "JavaScript",
+			"level": "85%"
+		},
+		{
+			"skill": "React",
+			"level": "70%"
+		},
+		{
+			"skill": "Node.js",
+			"level": "50%"
+		},
+		{
+			"skill": "Git & GitHub",
+			"level": "65%"
+		}
+	]
+}
