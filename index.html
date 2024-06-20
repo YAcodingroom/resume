@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
   <!-- google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,379 +14,45 @@
   <!-- fontAwesome -->
   <script src="https://kit.fontawesome.com/3a1a2f2b55.js" crossorigin="anonymous"></script>
 
-  <!-- bootstrap css cdn -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- favicon -->
+  <link rel="icon" href="" type="image/png">
 
-  <link rel="icon alternate" href="./images/faviconRobot.ico" type="image/png">
-  <link rel="stylesheet" href="./index.css">
+  <!-- css -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+
+  <!-- javaScript -->
+  <script defer src="./index.js"></script>
+
   <title>個人簡歷</title>
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html">YU AN LIN</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav class="navbar">
+      <div class="menu">
+        <a class="brand" href="./index.html">YU AN LIN</a>
+        <button class="toggler" type="button" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="toggler-icon fa-solid fa-bars"></i>
         </button>
+      </div>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="./index.html">Portfolio 練習作品</a>
-            <a class="nav-link" href="./about-me.html">About Me 關於我</a>
-            <a class="nav-link" href="./experience.html">Experience & Skills 簡歷與技能</a>
-          </div>
-        </div>
+      <div class="links-collapse" id="navbarCollapse">
+        <a class="nav-brand hidden" href="./index.html">YU AN LIN</a>
+        <a class="nav-link block" aria-current="page" href="./index.html">Portfolio 練習作品</a>
+        <a class="nav-link block" href="./about-me.html">About Me 關於我</a>
+        <a class="nav-link block" href="./experience.html">Experience & Skills 簡歷與技能</a>
       </div>
     </nav>
   </header>
 
   <main class="container">
-    <h1 class="container-title">Web develop portfolio</h1>
+
+    <h1 class="container-title section-title">Web develop portfolio</h1>
+
     <div class="portfolio">
-
-      <div class="card">
-        <div class="card-img-top">
-          <img src="./images/mapty.png" class="d-block w-100" alt="">
-        </div>
-
-        <div class="card-body">
-          <p class="card-title">Mapty - build with JavaScript</p>
-          <div class="focus-group">
-            <p class="focus-pill rounded-pill">
-              HTML
-            </p>
-            <p class="focus-pill rounded-pill">
-              CSS
-            </p>
-            <p class="focus-pill rounded-pill">
-              JavaScript
-            </p>
-             <p class="focus-pill rounded-pill">
-              Leaflet
-            </p>
-          </div>
-          <p class="card-text">User can log their running & cycling workouts with location, and see their workouts on a map. The datas save in the local storage.</p>
-
-          <div class="repo-link">
-            <a href="https://github.com/YAcodingroom/mapty" aria-hidden="true" target="_blank">
-              Link to the repo
-              <i class="fa-brands fa-github"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="card-footer">
-          <p class="card-text"><small>Exercise by The Complete JavaScript Course 2024, coded by YAL.</small></p>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-img-top">
-          <img src="./images/post-it/added-notes.png" class="d-block w-100" alt="">
-        </div>
-
-        <div class="card-body">
-          <p class="card-title">Post-it - build with React</p>
-          <div class="focus-group">
-            <p class="focus-pill rounded-pill">
-              React
-            </p>
-            <p class="focus-pill rounded-pill">
-              JavaScript
-            </p>
-            <p class="focus-pill rounded-pill">
-              Git & GitHub
-            </p>
-          </div>
-          <p class="card-text">This is a exercise to build Post-it with React. The user can write down the note, and the
-            data will store data in local storage.</p>
-
-          <div class="repo-link">
-            <a href="https://github.com/YAcodingroom/post-it" aria-hidden="true" target="_blank">
-              Link to the repo
-              <i class="fa-brands fa-github"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="card-footer">
-          <p class="card-text"><small>Exercise by The Complete 2024 Web Development Bootcamp, coded by YAL.</small></p>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-img-top">
-          <img src="./images/pizza-menu/Pizza menu.png" class="d-block w-100" alt="">
-        </div>
-
-        <div class="card-body">
-          <p class="card-title">Pizza menu - build with React</p>
-          <div class="focus-group">
-            <p class="focus-pill rounded-pill">
-              React
-            </p>
-            <p class="focus-pill rounded-pill">
-              JavaScript
-            </p>
-            <p class="focus-pill rounded-pill">
-              Git & GitHub
-            </p>
-          </div>
-          <p class="card-text">This is a exercise to build pizza menu with React. The user can see pizza's data include
-            price, ingredients, etc.</p>
-
-          <div class="repo-link">
-            <a href="https://github.com/YAcodingroom/pizza-menu" aria-hidden="true" target="_blank">
-              Link to the repo
-              <i class="fa-brands fa-github"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="card-footer">
-          <p class="card-text"><small>Exercise by The Ultimate React Course 2024, coded by YAL.</small></p>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-img-top">
-          <a class="d-block" href="https://yacodingroom.github.io/interactive-rating/" aria-hidden="true"
-            target="_blank">
-            <img src="./images/interactive-rating/interactive-rating_notebook.png" class="d-block w-100" alt="">
-          </a>
-        </div>
-
-        <div class="card-body">
-          <p class="card-title">Interactive rating</p>
-          <div class="focus-group">
-            <p class="focus-pill rounded-pill">
-              HTML+CSS
-            </p>
-            <p class="focus-pill rounded-pill">
-              jQuery
-            </p>
-            <p class="focus-pill rounded-pill">
-              Responsive
-            </p>
-          </div>
-          <p class="card-text">Use jQuery to allow users to rate, and upon submission, show a 'Thank you' card.</p>
-          <div class="repo-link">
-            <a href="https://github.com/YAcodingroom/interactive-rating" aria-hidden="true" target="_blank">
-              Link to the repo
-              <i class="fa-brands fa-github"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="card-footer">
-          <p class="card-text">Challenge by Frontend Mentor, coded by YAL.</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-img-top">
-          <a class="d-block" href="https://yacodingroom.github.io/3-column-preview-card/" aria-hidden="true"
-            target="_blank">
-            <img src="./images/3-column-preview-card/3-column-preview-card_notebook.png" class="d-block w-100" alt="">
-          </a>
-        </div>
-
-        <div class="card-body">
-          <p class="card-title">Interactive rating</p>
-          <div class="focus-group">
-            <p class="focus-pill rounded-pill">
-              HTML+CSS
-            </p>
-            <p class="focus-pill rounded-pill">
-              Bootstrap
-            </p>
-            <p class="focus-pill rounded-pill">
-              Responsive
-            </p>
-          </div>
-          <p class="card-text">Use Responsive design to build out the 3-column preview card.</p>
-          <div class="repo-link">
-            <a href="https://github.com/YAcodingroom/3-column-preview-card" aria-hidden="true" target="_blank">
-              Link to the repo
-              <i class="fa-brands fa-github"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="card-footer">
-          <p class="card-text"><small>Challenge by Frontend Mentor, coded by YAL.</small></p>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-img-top">
-          <a class="d-block" href="https://yacodingroom.github.io/faq-accordion-card/" aria-hidden="true"
-            target="_blank">
-            <img src="./images/faq-accordion-card/faq-accordion-card_notebook.png" class="d-block w-100" alt="">
-          </a>
-        </div>
-
-        <div class="card-body">
-          <p class="card-title">Interactive rating</p>
-          <div class="focus-group">
-            <p class="focus-pill rounded-pill">
-              HTML+CSS
-            </p>
-            <p class="focus-pill rounded-pill">
-              jQuery
-            </p>
-            <p class="focus-pill rounded-pill">
-              Responsive
-            </p>
-          </div>
-          <p class="card-text">Utilize jQuery and CSS animations to rotate the arrow direction upon click and expand the
-            text content.</p>
-          <div class="repo-link">
-            <a href="https://github.com/YAcodingroom/faq-accordion-card?tab=readme-ov-file" aria-hidden="true"
-              target="_blank">
-              Link to the repo
-              <i class="fa-brands fa-github"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="card-footer">
-          <p class="card-text"><small>Challenge by Frontend Mentor, coded by YAL.</small></p>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-img-top">
-          <a class="d-block" href="https://yacodingroom.github.io/intro-with-signup-form/" aria-hidden="true"
-            target="_blank">
-            <img src="./images/intro-with-signup-form/intro-with-signup-form_notebook.png" class="d-block w-100" alt="">
-          </a>
-        </div>
-
-        <div class="card-body">
-          <p class="card-title">Intro component with sign up form</p>
-          <div class="focus-group">
-            <p class="focus-pill rounded-pill">
-              HTML+CSS
-            </p>
-            <p class="focus-pill rounded-pill">
-              jQuery
-            </p>
-            <p class="focus-pill rounded-pill">
-              jQuery validation
-            </p>
-            <p class="focus-pill rounded-pill">
-              Responsive
-            </p>
-          </div>
-          <p class="card-text">Use jQuery validation plugin to validate the form and display custom message.</p>
-          <div class="repo-link">
-            <a href="https://github.com/YAcodingroom/intro-with-signup-form" aria-hidden="true" target="_blank">
-              Link to the repo
-              <i class="fa-brands fa-github"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="card-footer">
-          <p class="card-text"><small>Challenge by Frontend Mentor, coded by YAL.</small></p>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-img-top">
-          <img src="./images/restaurant-list/detail-page.png" class="d-block w-100" alt="">
-        </div>
-
-        <div class="card-body">
-          <p class="card-title">The restaurant-list project</p>
-          <div class="focus-group">
-            <p class="focus-pill rounded-pill">
-              node.js
-            </p>
-            <p class="focus-pill rounded-pill">
-              express.js
-            </p>
-            <p class="focus-pill rounded-pill">
-              express-handlebars
-            </p>
-            <p class="focus-pill rounded-pill">
-              Bootstrap
-            </p>
-            <p class="focus-pill rounded-pill">
-              Git & GitHub
-            </p>
-          </div>
-          <div class="card-text">
-            <ul>
-              <li>Users can see all restaurants list</li>
-              <li>Users can see the detail about the restaurant</li>
-              <li>Users can use keyword to search restaurant name or category</li>
-            </ul>
-          </div>
-          <div class="repo-link">
-            <a href="https://github.com/YAcodingroom/restaurant-list" aria-hidden="true" target="_blank">
-              Link to the repo
-              <i class="fa-brands fa-github"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="card-footer">
-          <p class="card-text"><small>Challenge by ALPHA Camp, coded by YAL.</small></p>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-img-top">
-          <img src="./images/shorten-URL/result.png" class="d-block w-100" alt="">
-        </div>
-
-        <div class="card-body">
-          <p class="card-title">The shorten URL project</p>
-          <div class="focus-group">
-            <p class="focus-pill rounded-pill">
-              node.js
-            </p>
-            <p class="focus-pill rounded-pill">
-              express.js
-            </p>
-            <p class="focus-pill rounded-pill">
-              qr-image npm package
-            </p>
-            <p class="focus-pill rounded-pill">
-              express-handlebars
-            </p>
-            <p class="focus-pill rounded-pill">
-              Bootstrap
-            </p>
-            <p class="focus-pill rounded-pill">
-              Git & GitHub
-            </p>
-          </div>
-          <div class="card-text">
-            <ul>
-              <li>Users can create a shortener URL</li>
-              <li>Users can create a QR code image</li>
-            </ul>
-          </div>
-          <div class="repo-link">
-            <a href="https://github.com/YAcodingroom/shortenURL" aria-hidden="true" target="_blank">
-              Link to the repo
-              <i class="fa-brands fa-github"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="card-footer">
-          <p class="card-text"><small>Challenge by ALPHA Camp, coded by YAL.</small></p>
-        </div>
-      </div>
-
+      <!-- insert card -->
     </div>
   </main>
 
@@ -395,12 +62,6 @@
     YuAnLin. All rights reserved.
   </footer>
 
-  <!-- bootstrap javascript cdn -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-
-  <script src="./index.js"></script>
 </body>
 
 </html>
