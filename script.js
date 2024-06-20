@@ -69,7 +69,7 @@ const portfolioMarkup = function (portfolios) {
         </div>
 
         <div class="card-body">
-          <p class="card-title title-size">${port.title}</p>
+          <p class="card-title subtitle-size">${port.title}</p>
           <div class="program-list">
 						${list}
           </div>
