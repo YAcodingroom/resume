@@ -18,7 +18,7 @@
 	font-size: 1.6rem;
 }
 .section-title {
-	font-size: 2.2rem;
+	font-size: 1.8rem;
 }
 /* body */
 * {
@@ -188,7 +188,6 @@ header {
 
 .repo-link a {
 	color: #005caf;
-	font-size: 1.4rem;
 }
 
 .card-copyright,
@@ -294,28 +293,26 @@ footer.container {
 @media (min-width: 768px) {
 	/* font size */
 	.content-size {
-		font-size: 1.4rem;
+		font-size: 1.3rem;
 	}
 	.subtitle-size {
-		font-size: 2.2rem;
+		font-size: 1.9rem;
 	}
 	.title-size {
-		font-size: 2.5rem;
+		font-size: 2.2rem;
 	}
 	.section-title {
-		font-size: 3.5rem;
+		font-size: 2.5rem;
 	}
 
 	/* header */
 	.menu {
-		padding: 1rem 1.5rem;
-		font-size: 1.4rem;
+		padding: 0.5rem 1.5rem;
 	}
 
 	.nav-link,
 	.nav-brand {
 		margin: 1.8rem auto;
-		font-size: 1.6rem;
 	}
 
 	/* toggler animation */
@@ -351,10 +348,6 @@ footer.container {
 	}
 
 	/* home page */
-	.card {
-		flex-basis: 400px;
-	}
-
 	.card-body {
 		margin: 1.5rem;
 	}
@@ -369,10 +362,6 @@ footer.container {
 
 	.program-item {
 		font-size: 1rem;
-	}
-
-	.repo-link {
-		font-size: 1.2rem;
 	}
 
 	.card-copyright,
@@ -430,13 +419,12 @@ footer.container {
 	}
 
 	.nav-link {
-		margin: 2rem;
+		margin: 0 1.5rem;
 	}
 
 	.nav-brand {
 		display: block;
-		margin-right: auto;
-		margin-left: 2rem;
+		margin: 1rem auto 1rem 2rem;
 	}
 
 	/* toggler animation */
@@ -451,10 +439,6 @@ footer.container {
 	}
 
 	/* home page */
-	.card {
-		flex-basis: 550px;
-	}
-
 	.card-description {
 		margin-top: 1.2rem;
 		font-size: 1.5rem;
