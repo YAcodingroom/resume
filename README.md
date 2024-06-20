@@ -16,7 +16,7 @@
 - HTML5
 - CSS
 - Flexbox
-- Bootstrap
+- JavaScript
 
 # Author
 
