@@ -1,6 +1,26 @@
 {
 	"portfolios": [
 		{
+			"title": "Forkify recipe application",
+			"skills": ["HTML+CSS", "JavaScript", "MVC architecture"],
+			"content_zh": "使用 MVC 架構來建制的 app，使用者可以搜尋食譜、建立自己的食譜、將喜歡的食譜加入書籤，而這些資料都會被存在 local storage。",
+			"content_en": "This application utilizes MVC architecture to organize its components effectively. Users can search for recipes, upload their own recipes, bookmark recipes they like, and adjust serving sizes as needed.",
+			"live_url": "",
+			"image_url": "./images/forkify.png",
+			"repo_url": "https://github.com/YAcodingroom/forkify/tree/main",
+			"copyright": "Exercise by The Complete JavaScript Course 2024, coded by YAL."
+		},
+		{
+			"title": "Mapty application",
+			"skills": ["HTML+CSS", "JavaScript", "Leaflet"],
+			"content_zh": "使用者可以用 app 紀錄鍛鍊的數據：例如跑步或騎單車，其中包含了距離、時間、位置，更使用了 Geolocation API 讓地圖顯示在精準的位置。",
+			"content_en": "In the exercise, users engage with a web app for logging running and cycling workouts with location data. They input workout details like type (running or cycling), distance, duration, and location using the Geolocation API for accurate tracking.",
+			"live_url": "https://yacodingroom.github.io/mapty/",
+			"image_url": "./images/mapty.png",
+			"repo_url": "https://github.com/YAcodingroom/mapty/tree/main",
+			"copyright": "Exercise by The Complete JavaScript Course 2024, coded by YAL."
+		},
+		{
 			"title": "WorldWise tracks the adventures",
 			"skills": [
 				"React",
@@ -15,6 +35,23 @@
 			"image_url": "./images/worldwise-page.png",
 			"repo_url": "https://github.com/YAcodingroom/worldwise",
 			"copyright": "Exercise by The Ultimate React Course 2024, coded by YAL."
+		},
+		{
+			"title": "The restaurant-list application",
+			"skills": [
+				"node.js",
+				"express.js",
+				"express-handlebars",
+				"JavaScript",
+				"Bootstrap",
+				"Git & GitHub"
+			],
+			"content_zh": "使用 express.js 和 express-handlebars 建立一個餐廳清單 app，使用者可以查看所有的餐廳、也可以點進去看餐廳的簡介，還能用關鍵字搜尋餐廳或是餐廳分類。",
+			"content_en": "Use express.js and express-handlebars to build a restaurant list app. Users can view all restaurants list, and see the detail about the restaurant. And users can use keyword to search restaurant name or category.",
+			"live_url": "",
+			"image_url": "./images/restaurant-page.png",
+			"repo_url": "https://github.com/YAcodingroom/restaurant-list",
+			"copyright": "Challenge by ALPHA Camp, coded by YAL."
 		},
 		{
 			"title": "Pizza menu",
@@ -37,14 +74,14 @@
 			"copyright": "Exercise by The Complete 2024 Web Development Bootcamp, coded by YAL."
 		},
 		{
-			"title": "Mapty application",
-			"skills": ["HTML+CSS", "JavaScript", "Leaflet"],
-			"content_zh": "使用者可以用 app 紀錄鍛鍊的數據：例如跑步或騎單車，其中包含了距離、時間、位置，更使用了 Geolocation API 讓地圖顯示在精準的位置。",
-			"content_en": "In the exercise, users engage with a web app for logging running and cycling workouts with location data. They input workout details like type (running or cycling), distance, duration, and location using the Geolocation API for accurate tracking.",
-			"live_url": "https://yacodingroom.github.io/mapty/",
-			"image_url": "./images/mapty.png",
-			"repo_url": "https://github.com/YAcodingroom/mapty/tree/main",
-			"copyright": "Exercise by The Complete JavaScript Course 2024, coded by YAL."
+			"title": "Preview card page",
+			"skills": ["HTML+CSS", "Bootstrap"],
+			"content_zh": "使用 flexbox 及 響應式設計建立 3 列預覽卡；在手機裝置上呈現縱向排列，到了平板裝置時，就變成橫向排列。",
+			"content_en": "Use flexbox and responsive design to build the preview card. On mobile devices, they are arranged vertically, but on tablet devices, they are arranged horizontally.",
+			"live_url": "https://yacodingroom.github.io/3-column-preview-card/",
+			"image_url": "./images/3-column-preview-card.png",
+			"repo_url": "https://github.com/YAcodingroom/3-column-preview-card",
+			"copyright": "Challenge by Frontend Mentor, coded by YAL."
 		},
 		{
 			"title": "Interactive rating page",
@@ -54,16 +91,6 @@
 			"live_url": "https://yacodingroom.github.io/interactive-rating/",
 			"image_url": "./images/interactive-rating.png",
 			"repo_url": "https://github.com/YAcodingroom/interactive-rating",
-			"copyright": "Challenge by Frontend Mentor, coded by YAL."
-		},
-		{
-			"title": "Preview card page",
-			"skills": ["HTML+CSS", "Bootstrap"],
-			"content_zh": "使用 flexbox 及 響應式設計建立 3 列預覽卡；在手機裝置上呈現縱向排列，到了平板裝置時，就變成橫向排列。",
-			"content_en": "Use flexbox and responsive design to build the preview card. On mobile devices, they are arranged vertically, but on tablet devices, they are arranged horizontally.",
-			"live_url": "https://yacodingroom.github.io/3-column-preview-card/",
-			"image_url": "./images/3-column-preview-card.png",
-			"repo_url": "https://github.com/YAcodingroom/3-column-preview-card",
 			"copyright": "Challenge by Frontend Mentor, coded by YAL."
 		},
 		{
@@ -85,23 +112,6 @@
 			"image_url": "./images/intro-with-signup-form.png",
 			"repo_url": "https://github.com/YAcodingroom/intro-with-signup-form",
 			"copyright": "Challenge by Frontend Mentor, coded by YAL."
-		},
-		{
-			"title": "The restaurant-list application",
-			"skills": [
-				"node.js",
-				"express.js",
-				"express-handlebars",
-				"JavaScript",
-				"Bootstrap",
-				"Git & GitHub"
-			],
-			"content_zh": "使用 express.js 和 express-handlebars 建立一個餐廳清單 app，使用者可以查看所有的餐廳、也可以點進去看餐廳的簡介，還能用關鍵字搜尋餐廳或是餐廳分類。",
-			"content_en": "Use express.js and express-handlebars to build a restaurant list app. Users can view all restaurants list, and see the detail about the restaurant. And users can use keyword to search restaurant name or category.",
-			"live_url": "",
-			"image_url": "./images/restaurant-page.png",
-			"repo_url": "https://github.com/YAcodingroom/restaurant-list",
-			"copyright": "Challenge by ALPHA Camp, coded by YAL."
 		}
 	]
 }
