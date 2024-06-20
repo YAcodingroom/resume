@@ -1,0 +1,494 @@
+/* mobile */
+/* display */
+.block {
+	display: block;
+}
+.hidden {
+	display: none;
+}
+
+/* font size */
+.content-size {
+	font-size: 0.94rem;
+}
+.subtitle-size {
+	font-size: 1.4rem;
+}
+.title-size {
+	font-size: 1.6rem;
+}
+.section-title {
+	font-size: 2.2rem;
+}
+/* body */
+* {
+	font-family: 'Play', 'Noto Serif TC', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	background-color: #fff;
+}
+
+body {
+	color: #434343;
+}
+
+/* header */
+header {
+	position: sticky;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.navbar {
+	background-color: #fff;
+}
+
+.menu {
+	position: relative;
+	z-index: 90;
+	padding: 0.5rem 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 0.5px 1px 1px #00000010;
+	background-color: inherit;
+	font-size: 1rem;
+}
+
+.brand,
+.nav-brand {
+	letter-spacing: 0.3rem;
+}
+
+.links-collapse {
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+	text-align: center;
+	background-color: inherit;
+	box-shadow: 0 1px 2px 2px #00000010;
+}
+
+.nav-link {
+	margin: 1.5rem auto;
+}
+
+/* toggler animation */
+.fade-in {
+	animation: fadein 0.4s;
+}
+
+.fade-out {
+	animation: fadeout 0.4s;
+}
+
+@keyframes fadein {
+	0% {
+		height: 0;
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+	100% {
+		height: 170px;
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+
+@keyframes fadeout {
+	0% {
+		height: 170px;
+		opacity: 1;
+		transform: translateY(0%);
+	}
+	100% {
+		height: 0;
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+}
+
+/* main */
+.container {
+	margin: 1.5rem;
+}
+
+.container-title {
+	margin-bottom: 1.6rem;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.portfolio,
+.about-me {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.8rem;
+	justify-content: space-around;
+}
+
+/* home page */
+.card {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 350px;
+	border: 0.5px solid #aeb1b5;
+	border-radius: 10px;
+}
+
+.card-body {
+	margin: 1rem;
+}
+
+.card-img {
+	height: 180px;
+	border-radius: 10px 10px 0 0;
+	border-bottom: 1px solid #aeb1b5;
+	overflow: hidden;
+}
+
+.card-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.card-description {
+	margin-top: 0.8rem;
+}
+
+.program-list {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin-top: 0.5rem;
+}
+
+.program-item {
+	border: 0.8px solid #aeb1b5;
+	border-radius: 30px;
+	font-size: 0.7rem;
+	padding: 0.4rem 0.6rem;
+}
+
+.card-footer {
+	margin: auto 0 1rem;
+}
+
+.repo-link {
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.repo-link a {
+	color: #005caf;
+	font-size: 1.4rem;
+}
+
+.card-copyright,
+footer.container {
+	color: #787878;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+footer.container {
+	margin-top: 1.6rem;
+}
+
+/* about me page */
+.profile-avatar {
+	margin-bottom: 2.5rem;
+}
+
+.profile-content {
+	margin: 0 2rem;
+	line-height: 1.6;
+	letter-spacing: 1px;
+}
+
+.contact-me a {
+	margin: 0 1rem;
+}
+
+/* experience */
+.title {
+	margin-bottom: 1rem;
+}
+
+.experience-content {
+	margin: 2rem auto;
+	width: 80%;
+	text-align: center;
+	line-height: 2;
+	letter-spacing: 2px;
+}
+
+.title::before {
+	content: '';
+	display: block;
+	margin: 0.8rem auto;
+	width: 20%;
+	border-bottom: 0.3rem dotted #0d5661;
+}
+
+.job-company {
+	position: relative;
+	color: #0d5661;
+}
+
+.job-year {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #4d5139;
+}
+
+.job-position {
+	position: relative;
+	display: block;
+	margin-bottom: 0.8rem;
+}
+
+/* skills */
+.skill-item {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	margin: 0.5rem;
+	align-items: center;
+}
+
+.skill-item span {
+	flex-basis: 20%;
+}
+.level-percentage {
+	position: relative;
+	z-index: 10;
+	display: inline-block;
+	width: 100%;
+	height: 0.8rem;
+	border: 2px solid #434343;
+	border-radius: 10px;
+	background-color: #434343;
+}
+
+.percentage {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	z-index: 20;
+	transform: translateY(-50%);
+	height: 0.6rem;
+	border-radius: inherit;
+	background-color: #eeeeee;
+}
+
+/* tablat */
+@media (min-width: 768px) {
+	/* font size */
+	.content-size {
+		font-size: 1.4rem;
+	}
+	.subtitle-size {
+		font-size: 2.2rem;
+	}
+	.title-size {
+		font-size: 2.5rem;
+	}
+	.section-title {
+		font-size: 3.5rem;
+	}
+
+	/* header */
+	.menu {
+		padding: 1rem 1.5rem;
+		font-size: 1.4rem;
+	}
+
+	.nav-link,
+	.nav-brand {
+		margin: 1.8rem auto;
+		font-size: 1.6rem;
+	}
+
+	/* toggler animation */
+	@keyframes fadein {
+		0% {
+			height: 0;
+			opacity: 0;
+			transform: translateY(-100%);
+		}
+		100% {
+			height: 230px;
+			opacity: 1;
+			transform: translateY(0%);
+		}
+	}
+
+	@keyframes fadeout {
+		0% {
+			height: 230px;
+			opacity: 1;
+			transform: translateY(0%);
+		}
+		100% {
+			height: 0;
+			opacity: 0;
+			transform: translateY(-100%);
+		}
+	}
+
+	/* main */
+	.container {
+		margin: 2rem;
+	}
+
+	/* home page */
+	.card {
+		flex-basis: 400px;
+	}
+
+	.card-body {
+		margin: 1.5rem;
+	}
+
+	.card-img {
+		height: 300px;
+	}
+
+	.card-description {
+		margin-top: 1rem;
+	}
+
+	.program-item {
+		font-size: 1rem;
+	}
+
+	.repo-link {
+		font-size: 1.2rem;
+	}
+
+	.card-copyright,
+	footer.container {
+		font-size: 1rem;
+	}
+
+	/* about me page */
+	.profile-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	.profile-content {
+		margin: 2rem;
+	}
+
+	.contact-me a {
+		font-size: 2rem;
+	}
+
+	/* experience */
+	.experience,
+	.skills,
+	.other-activities {
+		margin: 1.2rem auto;
+		width: 80%;
+	}
+
+	.title::before {
+		margin: 1.4rem auto;
+	}
+
+	/* skills */
+	.skills {
+		margin-top: 2rem;
+	}
+}
+
+/* notebook */
+@media (min-width: 1200px) {
+	/* header */
+	.menu {
+		display: none;
+	}
+
+	.links-collapse {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		padding: none;
+		overflow: auto;
+	}
+
+	.nav-link {
+		margin: 2rem;
+	}
+
+	.nav-brand {
+		display: block;
+		margin-right: auto;
+		margin-left: 2rem;
+	}
+
+	/* toggler animation */
+	.fade-in,
+	.fade-out {
+		animation: none;
+	}
+
+	/* main */
+	.container-title {
+		margin-bottom: 2rem;
+	}
+
+	/* home page */
+	.card {
+		flex-basis: 550px;
+	}
+
+	.card-description {
+		margin-top: 1.2rem;
+		font-size: 1.5rem;
+	}
+
+	footer.container {
+		margin-top: 1.6rem;
+		text-align: center;
+	}
+
+	.repo-link a:hover,
+	.contact-me a:hover {
+		color: #e78452;
+	}
+
+	/* about me */
+	.profile-avatar {
+		margin-bottom: 0;
+	}
+
+	.profile-content p {
+		padding: 0.8rem;
+	}
+
+	.contact-section {
+		margin-top: 2rem;
+	}
+
+	/* experience */
+	.card-img img {
+		transition: 0.3s;
+	}
+
+	.card-img img:hover {
+		transform: scale(1.2);
+	}
+}
