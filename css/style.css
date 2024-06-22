@@ -77,37 +77,33 @@ header {
 }
 
 /* toggler animation */
-.fade-in {
-	animation: fadein 0.4s;
+.push-in {
+	animation: pushin 0.4s;
 }
 
-.fade-out {
-	animation: fadeout 0.4s;
+.push-out {
+	animation: pushout 0.4s;
 }
 
-@keyframes fadein {
+@keyframes pushin {
 	0% {
 		height: 0;
 		opacity: 0;
-		transform: translateY(-100%);
 	}
 	100% {
 		height: 170px;
 		opacity: 1;
-		transform: translateY(0%);
 	}
 }
 
-@keyframes fadeout {
+@keyframes pushout {
 	0% {
 		height: 170px;
 		opacity: 1;
-		transform: translateY(0%);
 	}
 	100% {
 		height: 0;
 		opacity: 0;
-		transform: translateY(-100%);
 	}
 }
 
@@ -316,29 +312,25 @@ footer.container {
 	}
 
 	/* toggler animation */
-	@keyframes fadein {
+	@keyframes pushin {
 		0% {
 			height: 0;
 			opacity: 0;
-			transform: translateY(-100%);
 		}
 		100% {
-			height: 230px;
+			height: 190px;
 			opacity: 1;
-			transform: translateY(0%);
 		}
 	}
 
-	@keyframes fadeout {
+	@keyframes pushout {
 		0% {
-			height: 230px;
+			height: 190px;
 			opacity: 1;
-			transform: translateY(0%);
 		}
 		100% {
 			height: 0;
 			opacity: 0;
-			transform: translateY(-100%);
 		}
 	}
 
@@ -428,8 +420,8 @@ footer.container {
 	}
 
 	/* toggler animation */
-	.fade-in,
-	.fade-out {
+	.push-in,
+	.push-out {
 		animation: none;
 	}
 
