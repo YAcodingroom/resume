@@ -112,7 +112,7 @@ const skillMarkup = function (data) {
 	})
 }
 
-displaySection = async function (url, callback) {
+const displaySection = async function (url, callback) {
 	try {
 		const res = await fetch(url)
 		if (!res.ok) throw new Error('Something went wrong!')
