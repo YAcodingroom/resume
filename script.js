@@ -4,6 +4,8 @@ const portfolioContainer = document.querySelector('.portfolio')
 const skillListContainer = document.querySelector('.skill-list')
 const currentYearElement = document.querySelector('.current-year')
 
+const SKILLS_URL = './jsons/skills.json'
+const PORTFOLIOS_URL = './jsons/portfolios.json'
 const currentYear = new Date().getFullYear()
 let isShow = false
 
@@ -57,7 +59,8 @@ const programMarkup = function (list) {
 	return html
 }
 
-const portfolioMarkup = function (portfolios) {
+const portfolioMarkup = function (data) {
+	const { portfolios } = data
 	portfolios.forEach(function (portfolio) {
 		const port = renameKeys(portfolio)
 		const list = programMarkup(port.skills)
@@ -94,7 +97,8 @@ const portfolioMarkup = function (portfolios) {
 	})
 }
 
-const skillMarkup = function (skills) {
+const skillMarkup = function (data) {
+	const { skills } = data
 	skills.forEach(function (skill) {
 		const html = `
 		  <li class="skill-item">
@@ -104,43 +108,25 @@ const skillMarkup = function (skills) {
         </span>
       </li>
 		`
-		console.log(html)
 		skillListContainer?.insertAdjacentHTML('beforeend', html)
 	})
 }
 
-const displaySkill = async function () {
+displaySection = async function (url, callback) {
 	try {
-		const res = await fetch('./jsons/skills.json')
+		const res = await fetch(url)
 		if (!res.ok) throw new Error('Something went wrong!')
 
 		const data = await res.json()
 		if (!data) throw new Error('Data not found')
 
-		const { skills } = data
-		skillMarkup(skills)
+		callback(data)
 	} catch (err) {
 		console.error(err)
 	}
 }
 
-const displayPortfolio = async function () {
-	try {
-		const res = await fetch('./jsons/portfolios.json')
-		if (!res.ok) throw new Error('Something went wrong!')
-
-		const data = await res.json()
-		if (!data) throw new Error('Data not found')
-
-		const { portfolios } = data
-
-		portfolioMarkup(portfolios)
-	} catch (err) {
-		console.error(err)
-	}
-}
-
-displayPortfolio()
-displaySkill()
+displaySection(SKILLS_URL, skillMarkup)
+displaySection(PORTFOLIOS_URL, portfolioMarkup)
 
 currentYearElement.textContent = currentYear
