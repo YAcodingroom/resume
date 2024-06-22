@@ -19,15 +19,15 @@ const toggleNavigation = function (btn) {
 		btn.classList.add('fa-bars')
 		btn.classList.remove('fa-xmark')
 
-		collapse.classList.add('fade-out')
-		collapse.classList.remove('fade-in')
+		collapse.classList.add('push-out')
+		collapse.classList.remove('push-in')
 		collapse.style.height = '0'
 	} else {
 		btn.classList.remove('fa-bars')
 		btn.classList.add('fa-xmark')
 
-		collapse.classList.add('fade-in')
-		collapse.classList.remove('fade-out')
+		collapse.classList.add('push-in')
+		collapse.classList.remove('push-out')
 		collapse.style.height = '100%'
 	}
 	isShow = !isShow
