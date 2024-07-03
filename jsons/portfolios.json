@@ -1,6 +1,16 @@
 {
 	"portfolios": [
 		{
+			"title": "Space tourism website",
+			"skills": ["HTML+CSS", "JavaScript"],
+			"content_zh": "為了避免 HTML 過於冗長，一個太空旅遊介紹的網站將資料以 JSON 格式儲存。透過 JavaScript，網站會抓取資料並轉換成 DOM 元素節點，再進行渲染。這種方式不僅使得維護和修改資料變得更加便捷，同時也能有效地管理網頁內容。",
+			"content_en": "To avoid excessive HTML code, a website introducing space tourism stores its data in JSON format. Using JavaScript, the website fetches and converts data into DOM nodes for rendering. This approach not only facilitates easier maintenance and data updates but also ensures efficient management of webpage content.",
+			"live_url": "https://yacodingroom.github.io/space-tourism/",
+			"image_url": "./images/space-tourism.png",
+			"repo_url": "https://github.com/YAcodingroom/space-tourism",
+			"copyright": "Challenge by Frontend Mentor, coded by YAL."
+		},
+		{
 			"title": "Forkify recipe application",
 			"skills": ["HTML+CSS", "JavaScript", "MVC architecture"],
 			"content_zh": "使用 MVC 架構來建制的 app，使用者可以搜尋食譜、建立自己的食譜、將喜歡的食譜加入書籤，而這些資料都會被存在 local storage。",
