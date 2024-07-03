@@ -68,7 +68,11 @@ const portfolioMarkup = function (data) {
 		const html = `
 			<div class="card">
         <div class="card-img">
-          <img src="${port.imageUrl}" class="block" alt="${port.title}">
+          <a href="${
+						port.liveUrl ? port.liveUrl : port.repoUrl
+					}" rel="noreferrer noopenner" target="_blank">
+						<img src="${port.imageUrl}" class="block" alt="${port.title}">
+					</a>
         </div>
 
         <div class="card-body">
