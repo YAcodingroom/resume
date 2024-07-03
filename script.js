@@ -77,7 +77,6 @@ const portfolioMarkup = function (data) {
 						${list}
           </div>
           <p class="card-description content-size">${port.contentZh}</p>
-          <p class="card-description content-size">${port.contentEn}</p>
         </div>
 
         <div class="card-footer">
