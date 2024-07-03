@@ -9,7 +9,7 @@
 
 # Links
 
-- Live Site URL: https://yacodingroom.github.io/resume/
+- Live Site URL: https://yal-resume.netlify.app/
 
 # Built with
 
