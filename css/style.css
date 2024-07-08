@@ -119,7 +119,11 @@ header {
 	letter-spacing: 5px;
 }
 
-.portfolio,
+.portfolio {
+	display: grid;
+	gap: 3rem;
+	grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
 .about-me {
 	display: flex;
 	flex-wrap: wrap;
