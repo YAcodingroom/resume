@@ -1,6 +1,16 @@
 {
 	"portfolios": [
 		{
+			"title": "What is the country",
+			"skills": ["HTML+CSS", "JavaScript", "REST Countries API"],
+			"content_zh": "這個網站串接了 REST Countries API，動態取得並呈現各國的資料。使用者可以透過國家名稱搜尋，只要包含搜尋關鍵字的國家都會顯示出來；也可以依據大洲篩選，顯示大洲的所有國家。點擊任一國家可以查看詳細資料，包括相鄰國家的資訊，並能點擊相鄰國家按鈕以查看其詳細資料。此外，網站提供黑夜模式，使用者可以自由切換，享受更舒適的瀏覽體驗。",
+			"content_en": "This website integrates the REST Countries API to dynamically fetch and display data for various countries. Users can search by country name, showing all countries that contain the search keyword, or filter by continent to display all countries within that region. By clicking on any country, users can view detailed information, including neighboring countries, and can click on the neighboring country buttons to see their details. Additionally, the website offers a dark mode for a more comfortable browsing experience, which users can switch freely.",
+			"live_url": "https://whatisthecountry.netlify.app/",
+			"image_url": "./images/whats-the-country.png",
+			"repo_url": "https://github.com/YAcodingroom/what-is-the-country",
+			"copyright": "Challenge by Frontend Mentor, coded by YAL."
+		},
+		{
 			"title": "Space tourism website",
 			"skills": ["HTML+CSS", "JavaScript"],
 			"content_zh": "為了避免 HTML 過於冗長，一個太空旅遊介紹的網站將資料以 JSON 格式儲存。透過 JavaScript，網站會抓取資料並轉換成 DOM 元素節點，再進行渲染。這種方式不僅使得維護和修改資料變得更加便捷，同時也能有效地管理網頁內容。",
