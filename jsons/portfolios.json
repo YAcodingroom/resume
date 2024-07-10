@@ -33,9 +33,9 @@
 		{
 			"title": "Mapty application",
 			"skills": ["HTML+CSS", "JavaScript", "Leaflet"],
-			"content_zh": "使用者可以用 app 紀錄鍛鍊的數據：例如跑步或騎單車，其中包含了距離、時間、位置，更使用了 Geolocation API 讓地圖顯示在精準的位置。",
+			"content_zh": "這是一款鍛鍊紀錄 app，讓使用者追蹤和分析他們的鍛鍊數據。使用者可以記錄跑步和騎單車的詳細數據，包括距離、時間和地理位置。使用了 Geolocation API，取得精確的地圖定位功能，讓使用者能夠在地圖上查看和回顧他們的鍛鍊位置。",
 			"content_en": "In the exercise, users engage with a web app for logging running and cycling workouts with location data. They input workout details like type (running or cycling), distance, duration, and location using the Geolocation API for accurate tracking.",
-			"live_url": "https://yacodingroom.github.io/mapty/",
+			"live_url": "https://mapty-log-your-training.netlify.app/",
 			"image_url": "./images/mapty.png",
 			"repo_url": "https://github.com/YAcodingroom/mapty/tree/main",
 			"copyright": "Exercise by The Complete JavaScript Course 2024, coded by YAL."
