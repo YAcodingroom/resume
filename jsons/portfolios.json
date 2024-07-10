@@ -78,7 +78,7 @@
 			"skills": ["React", "JavaScript", "Git & GitHub"],
 			"content_zh": "這是一個使用 React 建立披薩菜單的練習。用戶可以看到披薩的數據包括照片、價格、成分等。",
 			"content_en": "This is a exercise to build pizza menu with React. The user can see pizza's data include price, ingredients, etc.",
-			"live_url": "",
+			"live_url": "https://pizza-home-menu.netlify.app/",
 			"image_url": "./images/pizza-menu.png",
 			"repo_url": "https://github.com/YAcodingroom/pizza-menu",
 			"copyright": "Exercise by The Ultimate React Course 2024, coded by YAL."
