@@ -1,6 +1,16 @@
 {
 	"portfolios": [
 		{
+			"title": "FARAWAY packing-list",
+			"skills": ["HTML+CSS", "JavaScript", "React"],
+			"content_zh": "這個 web app 是使用 React 建立的，專為旅遊準備打造。使用者可以輕鬆新增旅遊物品清單，並在物品放入行李後勾選已打包（check）標記。此外，使用者還能刪除物品，或透過一鍵功能清除整個清單，讓旅遊準備更加方便和有條理。",
+			"content_en": "This web app is built with React and is designed specifically for travel preparation. Users can easily add items to their travel packing list and check them off once they are packed. Additionally, users can delete items or clear the entire list with a single click, making travel preparation more convenient and organized.",
+			"live_url": "https://faraway-packing-list.netlify.app/",
+			"image_url": "./images/packing-list.png",
+			"repo_url": "https://github.com/YAcodingroom/packing-list",
+			"copyright": "Exercise by The Ultimate React Course 2024, coded by YAL."
+		},
+		{
 			"title": "What is the country",
 			"skills": ["HTML+CSS", "JavaScript", "REST Countries API"],
 			"content_zh": "這個網站串接了 REST Countries API，動態取得並呈現各國的資料。使用者可以透過國家名稱搜尋，只要包含搜尋關鍵字的國家都會顯示出來；也可以依據大洲篩選，顯示大洲的所有國家。點擊任一國家可以查看詳細資料，包括相鄰國家的資訊，並能點擊相鄰國家按鈕以查看其詳細資料。此外，網站提供黑夜模式，使用者可以自由切換，享受更舒適的瀏覽體驗。",
