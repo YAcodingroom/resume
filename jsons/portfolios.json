@@ -3,7 +3,7 @@
 		{
 			"title": "FARAWAY packing-list",
 			"skills": ["HTML+CSS", "JavaScript", "React"],
-			"content_zh": "這個分帳應用程式是使用 React 建立的，能幫助使用者在和朋友出遊時計算並分攤費用。使用者可以輕鬆地新增朋友到清單，簡單的介面非常容易上手。目前僅支援與一位朋友分帳，但我們會持續優化，未來將能支援與多位朋友分帳。",
+			"content_zh": "這個分帳應用程式是使用 React 建立的，能幫助使用者在和朋友出遊時計算並分攤費用。使用者可以輕鬆地新增朋友到清單，簡單的介面非常容易上手。目前僅支援與一位朋友分帳，但未來會持續優化，未來將能支援與多位朋友分帳。",
 			"content_en": "This split app, built with React, helps users calculate and split expenses when going out with friends. Users can easily add friends to the list, and the simple interface makes it very user-friendly. Currently, it supports splitting expenses with one friend, but ongoing updates aim to enable splitting with multiple friends.",
 			"live_url": "https://splitwithfriend.netlify.app/",
 			"image_url": "./images/split-bill.png",
