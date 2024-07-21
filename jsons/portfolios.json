@@ -1,7 +1,17 @@
 {
 	"portfolios": [
 		{
-			"title": "FARAWAY packing-list",
+			"title": "POPCORN see movie",
+			"skills": ["HTML+CSS", "JavaScript", "React"],
+			"content_zh": "一款基於 React 的網頁應用程式，集成了 OMDB API，允許使用者查詢電影並查看詳細資料。使用者可以通過應用程式輸入電影名稱進行搜索，應用程式會調用 OMDB API 並返回相關電影的詳細資訊，如片名、導演、演員、劇情簡介和海報等。此外，使用者還可以對已經看過的電影進行評分並將其添加到個人清單中，以便未來查看和管理。",
+			"content_en": "A web application based on React, integrated with the OMDB API, allowing users to search for movies and view detailed information. Users can enter a movie name to search through the application, which calls the OMDB API and returns detailed information about the movie, such as title, director, actors, plot summary, and poster. Additionally, users can rate movies they have watched and add them to a personal list for future viewing and management.",
+			"live_url": "https://popcorn-seemovie.netlify.app/",
+			"image_url": "./images/popcorn-movie.png",
+			"repo_url": "https://github.com/YAcodingroom/popcorn-movies",
+			"copyright": "Exercise by The Ultimate React Course 2024, coded by YAL."
+		},
+		{
+			"title": "Split bill",
 			"skills": ["HTML+CSS", "JavaScript", "React"],
 			"content_zh": "這個分帳應用程式是使用 React 建立的，能幫助使用者在和朋友出遊時計算並分攤費用。使用者可以輕鬆地新增朋友到清單，簡單的介面非常容易上手。目前僅支援與一位朋友分帳，但未來會持續優化，未來將能支援與多位朋友分帳。",
 			"content_en": "This split app, built with React, helps users calculate and split expenses when going out with friends. Users can easily add friends to the list, and the simple interface makes it very user-friendly. Currently, it supports splitting expenses with one friend, but ongoing updates aim to enable splitting with multiple friends.",
