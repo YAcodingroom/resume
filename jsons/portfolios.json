@@ -1,6 +1,16 @@
 {
 	"portfolios": [
 		{
+			"title": "The React Quiz",
+			"skills": ["HTML+CSS", "JavaScript", "React"],
+			"content_zh": "這是一個使用 React 構建的互動式測驗網頁，旨在幫助通過練習題目來提升知識和技能。題目和答案儲存在自定義的 JSON 檔案中，提供即時的數據訪問。測驗開始後，系統自動啟動倒數計時，確保使用者在限定時間內完成測驗。使用者每回答一個問題，系統會即時計分，並在頁面上同步顯示當前得分。頁面上有進度條，讓使用者清楚了解還剩多少題未完成。測驗結束或時間歸零時，系統將自動跳轉到結果頁面，展示使用者的總分數。",
+			"content_en": "This is an interactive quiz web page built using React, designed to help users enhance their knowledge and skills through practicing questions. Questions and answers are stored in a custom JSON file and fetched directly, providing real-time data access. Upon starting the quiz, a countdown timer automatically begins, ensuring users complete the quiz within the allotted time. As users answer each question, the system scores in real-time and displays the current score on the page. A progress bar on the page shows the completion status of the quiz, allowing users to see how many questions remain. When the quiz is completed or the time expires, the system automatically redirects to a results page displaying the user's total score.",
+			"live_url": "https://the-react-quiz-time.netlify.app/",
+			"image_url": "./images/react-quiz.png",
+			"repo_url": "https://github.com/YAcodingroom/react-quiz",
+			"copyright": "Exercise by The Ultimate React Course 2024, coded by YAL."
+		},
+		{
 			"title": "POPCORN see movie",
 			"skills": ["HTML+CSS", "JavaScript", "React"],
 			"content_zh": "一款基於 React 的網頁應用程式，集成了 OMDB API，允許使用者查詢電影並查看詳細資料。使用者可以通過應用程式輸入電影名稱進行搜索，應用程式會調用 OMDB API 並返回相關電影的詳細資訊，如片名、導演、演員、劇情簡介和海報等。此外，使用者還可以對已經看過的電影進行評分並將其添加到個人清單中，以便未來查看和管理。",
@@ -79,7 +89,7 @@
 				"React Datepicker",
 				"CSS Modules"
 			],
-			"content_zh": "使用 React 和 React Component Libraries 建立 WorldWise 網站的練習。用戶在地圖上追蹤他們的冒險經歷，為城市寫下一些備忘錄。",
+			"content_zh": "使用 React 和 React Component Libraries 建立 WorldWise 網站的練習。使用者在地圖上追蹤他們的冒險經歷，為城市寫下一些備忘錄。",
 			"content_en": "This is a exercise to build WorldWise website with React & React Component Libraries. The user tracks their adventures on the map, write down some memo for cities.",
 			"live_url": "",
 			"image_url": "./images/worldwise-page.png",
@@ -106,7 +116,7 @@
 		{
 			"title": "Pizza menu",
 			"skills": ["React", "JavaScript", "Git & GitHub"],
-			"content_zh": "這是一個使用 React 建立披薩菜單的練習。用戶可以看到披薩的數據包括照片、價格、成分等。",
+			"content_zh": "這是一個使用 React 建立披薩菜單的練習。使用者可以看到披薩的數據包括照片、價格、成分等。",
 			"content_en": "This is a exercise to build pizza menu with React. The user can see pizza's data include price, ingredients, etc.",
 			"live_url": "https://pizza-home-menu.netlify.app/",
 			"image_url": "./images/pizza-menu.png",
