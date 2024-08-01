@@ -1,6 +1,16 @@
 {
 	"portfolios": [
 		{
+			"title": "FAST PIZZA Co.",
+			"skills": ["HTML+CSS", "JavaScript", "React", "Vite", "Tailwind"],
+			"content_zh": "這是一個用 React 製作的網頁應用程式。使用者輸入名字後，可以進入菜單頁面，一鍵下訂、修改數量、選擇優先製作訂單。最後，輸入電話和地址，即可完成訂單。未來，使用者也可以使用訂單號碼查詢訂單狀態。",
+			"content_en": "This is a web application built with React. After entering their name, users can access the menu page, place orders with a single click, modify quantities, and select orders for priority processing. Finally, by entering their phone number and address, they can complete the order. In the future, users can also use the order number to check the order status.",
+			"live_url": "https://fastpizza-order.netlify.app/",
+			"image_url": "./images/pizza-order.png",
+			"repo_url": "https://github.com/YAcodingroom/react-fast-pizza",
+			"copyright": "Exercise by The Ultimate React Course 2024, coded by YAL."
+		},
+		{
 			"title": "The React Quiz",
 			"skills": ["HTML+CSS", "JavaScript", "React"],
 			"content_zh": "這是一個使用 React 構建的互動式測驗網頁，旨在幫助通過練習題目來提升知識和技能。題目和答案儲存在自定義的 JSON 檔案中，提供即時的數據訪問。測驗開始後，系統自動啟動倒數計時，確保使用者在限定時間內完成測驗。使用者每回答一個問題，系統會即時計分，並在頁面上同步顯示當前得分。頁面上有進度條，讓使用者清楚了解還剩多少題未完成。測驗結束或時間歸零時，系統將自動跳轉到結果頁面，展示使用者的總分數。",
@@ -114,16 +124,6 @@
 			"copyright": "Challenge by ALPHA Camp, coded by YAL."
 		},
 		{
-			"title": "Pizza menu",
-			"skills": ["React", "JavaScript", "Git & GitHub"],
-			"content_zh": "這是一個使用 React 建立披薩菜單的練習。使用者可以看到披薩的數據包括照片、價格、成分等。",
-			"content_en": "This is a exercise to build pizza menu with React. The user can see pizza's data include price, ingredients, etc.",
-			"live_url": "https://pizza-home-menu.netlify.app/",
-			"image_url": "./images/pizza-menu.png",
-			"repo_url": "https://github.com/YAcodingroom/pizza-menu",
-			"copyright": "Exercise by The Ultimate React Course 2024, coded by YAL."
-		},
-		{
 			"title": "Post-it application",
 			"skills": ["React", "JavaScript", "Git & GitHub"],
 			"content_zh": "這是一個使用 React 建立便條紙的練習。使用者可以寫下便條紙並且將資料儲存在 local storage 中。",
@@ -132,46 +132,6 @@
 			"image_url": "./images/post-it.png",
 			"repo_url": "https://github.com/YAcodingroom/post-it",
 			"copyright": "Exercise by The Complete 2024 Web Development Bootcamp, coded by YAL."
-		},
-		{
-			"title": "Preview card page",
-			"skills": ["HTML+CSS", "Bootstrap"],
-			"content_zh": "使用 flexbox 及 響應式設計建立 3 列預覽卡；在手機裝置上呈現縱向排列，到了平板裝置時，就變成橫向排列。",
-			"content_en": "Use flexbox and responsive design to build the preview card. On mobile devices, they are arranged vertically, but on tablet devices, they are arranged horizontally.",
-			"live_url": "https://yacodingroom.github.io/3-column-preview-card/",
-			"image_url": "./images/3-column-preview-card.png",
-			"repo_url": "https://github.com/YAcodingroom/3-column-preview-card",
-			"copyright": "Challenge by Frontend Mentor, coded by YAL."
-		},
-		{
-			"title": "Interactive rating page",
-			"skills": ["HTML+CSS", "jQuery", "Bootstrap"],
-			"content_zh": "一個簡單的頁面，讓使用者評分，並在提交後顯示'感謝卡'以及分數。",
-			"content_en": "Allow users to rate, and upon submission, show a 'Thank you' card.",
-			"live_url": "https://yacodingroom.github.io/interactive-rating/",
-			"image_url": "./images/interactive-rating.png",
-			"repo_url": "https://github.com/YAcodingroom/interactive-rating",
-			"copyright": "Challenge by Frontend Mentor, coded by YAL."
-		},
-		{
-			"title": "FAQ accordion page",
-			"skills": ["HTML+CSS", "jQuery", "Bootstrap"],
-			"content_zh": "利用 jQuery 和 CSS 動畫來旋轉箭頭方向，點擊並展開文字內容。",
-			"content_en": "Utilize jQuery and CSS animations to rotate the arrow direction upon click and expand the text content.",
-			"live_url": "https://yacodingroom.github.io/faq-accordion-card/",
-			"image_url": "./images/faq-accordion-card.png",
-			"repo_url": "https://github.com/YAcodingroom/faq-accordion-card?tab=readme-ov-file",
-			"copyright": "Challenge by Frontend Mentor, coded by YAL."
-		},
-		{
-			"title": "Intro component with sign up form",
-			"skills": ["HTML+CSS", "jQuery", "jQuery validation"],
-			"content_zh": "使用 jQuery 驗證外掛程式來驗證表單並顯示自訂訊息。",
-			"content_en": "Use jQuery validation plugin to validate the form and display custom message.",
-			"live_url": "https://yacodingroom.github.io/intro-with-signup-form/",
-			"image_url": "./images/intro-with-signup-form.png",
-			"repo_url": "https://github.com/YAcodingroom/intro-with-signup-form",
-			"copyright": "Challenge by Frontend Mentor, coded by YAL."
 		}
 	]
 }
