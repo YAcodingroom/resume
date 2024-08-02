@@ -13,7 +13,7 @@
 		{
 			"title": "The React Quiz",
 			"skills": ["HTML+CSS", "JavaScript", "React"],
-			"content_zh": "這是一個使用 React 構建的互動式測驗網頁，旨在幫助通過練習題目來提升知識和技能。題目和答案儲存在自定義的 JSON 檔案中，提供即時的數據訪問。測驗開始後，系統自動啟動倒數計時，確保使用者在限定時間內完成測驗。使用者每回答一個問題，系統會即時計分，並在頁面上同步顯示當前得分。頁面上有進度條，讓使用者清楚了解還剩多少題未完成。測驗結束或時間歸零時，系統將自動跳轉到結果頁面，展示使用者的總分數。",
+			"content_zh": "使用 React 構建的互動式測驗網頁，題目和答案儲存在自定義 JSON 檔案中，提供即時數據訪問。測驗開始後，系統啟動倒數計時，確保在限定時間內完成。每回答一題，系統即時計分並顯示當前得分。進度條顯示剩餘題數。測驗結束或時間到時，系統跳轉到結果頁面，顯示總分數。",
 			"content_en": "This is an interactive quiz web page built using React, designed to help users enhance their knowledge and skills through practicing questions. Questions and answers are stored in a custom JSON file and fetched directly, providing real-time data access. Upon starting the quiz, a countdown timer automatically begins, ensuring users complete the quiz within the allotted time. As users answer each question, the system scores in real-time and displays the current score on the page. A progress bar on the page shows the completion status of the quiz, allowing users to see how many questions remain. When the quiz is completed or the time expires, the system automatically redirects to a results page displaying the user's total score.",
 			"live_url": "https://the-react-quiz-time.netlify.app/",
 			"image_url": "./images/react-quiz.png",
@@ -126,7 +126,7 @@
 		{
 			"title": "Post-it application",
 			"skills": ["React", "JavaScript", "Git & GitHub"],
-			"content_zh": "這是一個使用 React 建立便條紙的練習。使用者可以寫下便條紙並且將資料儲存在 local storage 中。",
+			"content_zh": "這是一個可以使用 React 建立便條紙。使用者可以寫下便條紙並且將資料儲存在 local storage 中。",
 			"content_en": "This is a exercise to build Post-it app with React. The user can write down the note, and the data will store in local storage.",
 			"live_url": "",
 			"image_url": "./images/post-it.png",

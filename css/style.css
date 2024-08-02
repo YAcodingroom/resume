@@ -12,13 +12,13 @@
 	font-size: 0.94rem;
 }
 .subtitle-size {
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 }
 .title-size {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 }
 .section-title {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 }
 /* body */
 * {
@@ -119,11 +119,6 @@ header {
 	letter-spacing: 5px;
 }
 
-.portfolio {
-	display: grid;
-	gap: 3rem;
-	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-}
 .about-me {
 	display: flex;
 	flex-wrap: wrap;
@@ -203,7 +198,8 @@ footer.container {
 
 /* about me page */
 .profile-avatar {
-	margin-bottom: 2.5rem;
+	margin: 0 auto 2.5rem;
+	max-width: 400px;
 }
 
 .profile-content {
@@ -293,16 +289,16 @@ footer.container {
 @media (min-width: 768px) {
 	/* font size */
 	.content-size {
-		font-size: 1.3rem;
+		font-size: 1rem;
 	}
 	.subtitle-size {
-		font-size: 1.9rem;
+		font-size: 1.6rem;
 	}
 	.title-size {
-		font-size: 2.2rem;
+		font-size: 1.8rem;
 	}
 	.section-title {
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 
 	/* header */
@@ -344,6 +340,12 @@ footer.container {
 	}
 
 	/* home page */
+	.portfolio {
+		display: grid;
+		gap: 3rem;
+		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	}
+
 	.card-body {
 		margin: 1.5rem;
 	}
