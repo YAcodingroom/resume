@@ -1,11 +1,6 @@
-# 關於 Yu An Lin 的簡歷
+# React + Vite + Tailwind + React Router
 
-這是簡單用 HTML CSS JavaScript 做出的簡歷頁面。
-
-# 內容
-
-- 使用者可以看到我的練習的作品、經歷與技能、簡短的自我介紹
-- 使用者可以連結到我的社群媒體或是部落格
+使用 React + Vite + Tailwind + React Router 一起寫出的個人網站
 
 # Links
 
@@ -15,8 +10,8 @@
 
 - HTML5
 - CSS
-- Flexbox
 - JavaScript
+- React
 
 # Author
 

@@ -1,74 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- OGP meta -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Personal Resume - YAL">
-  <meta property="og:description"
-    content="I'm Yu An Lin, I'm enthusiastic about new challenges and currently actively learning web development, aiming to transition into a role as a front-end">
-  <meta property="og:image" content="./images/ya-picture.png">
-  <meta property="og:url" content="#">
-
-  <!-- google font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Play&family=Noto+Serif+TC&display=swap" rel="stylesheet">
-
-  <!-- fontAwesome -->
-  <script src="https://kit.fontawesome.com/3a1a2f2b55.js" crossorigin="anonymous"></script>
-
-  <!-- favicon -->
-  <link rel="icon" href="./images/favicon.svg" type="image/svg">
-
-  <!-- css -->
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css">
-
-  <!-- javaScript -->
-  <script defer src="./script.js"></script>
-
-  <title>YAL portfolio</title>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
 </head>
 
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="menu">
-        <a class="brand" href="./index.html">YU AN LIN</a>
-        <button class="toggler" type="button" aria-controls="navbarCollapse" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <i class="toggler-icon fa-solid fa-bars"></i>
-        </button>
-      </div>
-
-      <div class="links-collapse" id="navbarCollapse">
-        <a class="nav-brand hidden" href="./index.html">YU AN LIN</a>
-        <a class="nav-link block" aria-current="page" href="./index.html">Portfolio 作品</a>
-        <a class="nav-link block" href="./about-me.html">About YAL studio 關於我</a>
-        <a class="nav-link block" href="./experience.html">Professional & my Knowledge 技能</a>
-      </div>
-    </nav>
-  </header>
-
-  <main class="container">
-
-    <h1 class="container-title section-title">Web develop portfolio</h1>
-
-    <div class="portfolio">
-      <!-- insert card -->
-    </div>
-  </main>
-
-  <footer class="container">
-    Copyright
-    &#169; <span class="current-year"></span>
-    YuAnLin. All rights reserved.
-  </footer>
-
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 
 </html>
