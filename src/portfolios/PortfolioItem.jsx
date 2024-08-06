@@ -1,6 +1,4 @@
 import PropTypes from "prop-types";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { renameKeys } from "../utils/helpers";
 import SkillPills from "./SkillPills";
 import PortfolioFooter from "./PortfolioFooter";
@@ -24,9 +22,7 @@ function PortfolioItem({ item }) {
         ))}
       </PortfolioBody>
 
-      <PortfolioFooter port={port}>
-        <FontAwesomeIcon icon={faGithub} />
-      </PortfolioFooter>
+      <PortfolioFooter port={port} />
     </div>
   );
 }
