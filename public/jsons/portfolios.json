@@ -3,8 +3,8 @@
     {
       "title": "Wedding invitation",
       "skills": ["HTML+CSS", "JavaScript", "React", "Vite", "Tailwind"],
-      "content_zh": "這是一個用 React 製作的網頁應用程式。使用者輸入名字後，可以進入菜單頁面，一鍵下訂、修改數量、選擇優先製作訂單。最後，輸入電話和地址，即可完成訂單。未來，使用者也可以使用訂單號碼查詢訂單狀態。",
-      "content_en": "This is a web application built with React. After entering their name, users can access the menu page, place orders with a single click, modify quantities, and select orders for priority processing. Finally, by entering their phone number and address, they can complete the order. In the future, users can also use the order number to check the order status.",
+      "content_zh": "這是一個用 React 製作的婚禮邀請函，擁有簡短的新人小故事、一目瞭然的婚禮資訊、並使用輪播功能展示婚紗照，讓使用者可以一睹為快。我們還設有一個回函表單，使用者可以輸入回應，並通過串接的表單服務，獲取他們輸入的資料。",
+      "content_en": "This is a wedding invitation created with React. The page includes a brief romantic story, clear wedding information, and a carousel feature that allows users to preview wedding photos. There is also a response form where users can submit their replies, and the data is collected through an integrated form service.",
       "live_url": "https://yalstudio-wedding-invitation.netlify.app",
       "image_url": "./images/wedding.png",
       "repo_url": "https://github.com/YAcodingroom/wedding-card",
