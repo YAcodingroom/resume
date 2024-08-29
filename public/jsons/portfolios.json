@@ -5,7 +5,7 @@
       "skills": ["HTML+CSS", "JavaScript", "Next.js", "Supabase", "Tailwind"],
       "content_zh": "為顧客帶來流暢且美觀的瀏覽體驗。在這裡，顧客可以輕鬆瀏覽度假村的詳細介紹，並查看每個獨特小木屋的價格。透過 Google 帳號登入，顧客更能使用方便的日曆功能，直接預訂心儀的住宿日期。此外，還可以在個人頁面中隨時查看自己的預訂紀錄。",
       "live_url": "https://the-wild-oasis-app-sigma.vercel.app/",
-      "image_url": "./images/the-wild-oasis-app",
+      "image_url": "./images/the-wild-oasis-app.png",
       "copyright": "Exercise by The Ultimate React Course 2024, coded by YAL."
     },
     {
@@ -19,7 +19,7 @@
       ],
       "content_zh": "提供一個直觀且高效的管理平台。透過這個後台，管理者可以輕鬆掌握所有訂單資訊，包括訂單狀態、顧客資料等。此外，管理者還能即時調整各個小木屋的價格，並查看度假村的整體入住率。提供當日預訂顧客名單，方便管理者與客人進行聯繫。",
       "live_url": "https://the-wild-oasis-management.vercel.app/",
-      "image_url": "./images/the-wild-oasis-management",
+      "image_url": "./images/the-wild-oasis-management.png",
       "copyright": "Exercise by The Ultimate React Course 2024, coded by YAL."
     },
     {
