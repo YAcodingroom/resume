@@ -2,7 +2,7 @@ function Profile() {
   return (
     <section className="flex flex-col items-center gap-6 lg:col-span-1">
       <div className="mx-auto max-w-60">
-        <img src="./images/ya-picture.png" alt="avatar" className="block" />
+        <img src="./ya-picture.png" alt="avatar" className="block" />
       </div>
 
       <div className="text-base tracking-widest md:m-8 lg:p-3">

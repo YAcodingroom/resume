@@ -11,7 +11,7 @@ export default {
         screen: "100dvh",
         homepage: "calc(100dvh - 6rem)",
       },
-      backgroundImage: { homepage: "url(/images/home.png)" },
+      backgroundImage: { homepage: "url(/home.png)" },
     },
   },
   plugins: [],

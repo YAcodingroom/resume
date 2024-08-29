@@ -1,60 +1,64 @@
 {
-	"skills": [
-		{
-			"skill": "HTML",
-			"level": "90%"
-		},
-		{
-			"skill": "CSS",
-			"level": "85%"
-		},
-		{
-			"skill": "Bootstrap",
-			"level": "85%"
-		},
-		{
-			"skill": "Tailwind",
-			"level": "80%"
-		},
-		{
-			"skill": "JavaScript",
-			"level": "85%"
-		},
-		{
-			"skill": "React",
-			"level": "80%"
-		},
-		{
-			"skill": "Node.js",
-			"level": "60%"
-		},
-		{
-			"skill": "Git & GitHub",
-			"level": "70%"
-		},
-		{
-			"skill": "文案撰寫",
-			"level": "80%"
-		},
-		{
-			"skill": "攝影",
-			"level": "85%"
-		},
-		{
-			"skill": "插畫",
-			"level": "85%"
-		},
-		{
-			"skill": "員工帶訓",
-			"level": "90%"
-		},
-		{
-			"skill": "資料分析",
-			"level": "80%"
-		},
-		{
-			"skill": "工作流程制定",
-			"level": "90%"
-		}
-	]
+  "skills": [
+    {
+      "skill": "HTML",
+      "level": "90%"
+    },
+    {
+      "skill": "CSS",
+      "level": "85%"
+    },
+    {
+      "skill": "Bootstrap",
+      "level": "85%"
+    },
+    {
+      "skill": "Tailwind",
+      "level": "80%"
+    },
+    {
+      "skill": "JavaScript",
+      "level": "85%"
+    },
+    {
+      "skill": "React",
+      "level": "85%"
+    },
+    {
+      "skill": "Next.js",
+      "level": "70%"
+    },
+    {
+      "skill": "Node.js",
+      "level": "60%"
+    },
+    {
+      "skill": "Git & GitHub",
+      "level": "70%"
+    },
+    {
+      "skill": "文案撰寫",
+      "level": "80%"
+    },
+    {
+      "skill": "攝影",
+      "level": "85%"
+    },
+    {
+      "skill": "插畫",
+      "level": "85%"
+    },
+    {
+      "skill": "員工帶訓",
+      "level": "90%"
+    },
+    {
+      "skill": "資料分析",
+      "level": "80%"
+    },
+    {
+      "skill": "工作流程制定",
+      "level": "90%"
+    }
+  ]
 }
