@@ -1,6 +1,14 @@
 {
   "portfolios": [
     {
+      "title": "Nextlevel food 食譜網頁demo",
+      "skills": ["HTML+CSS", "JavaScript", "Next.js", "CSS Modules"],
+      "content_zh": "從經典家常菜到異國風味料理，應有盡有。詳細的步驟解說，讓你輕鬆跟著做。不論你是新手還是老饕，都能在這找到屬於你的美味食譜。快來探索美食世界，創造屬於你的獨特風味吧！分享你的料理成果，與其他美食愛好者交流，一起在烹飪的世界裡玩得更開心！",
+      "live_url": "https://onwards-foodies-exercise.vercel.app/",
+      "image_url": "./images/onwards-foodies.png",
+      "copyright": "Exercise by Next.js 14 & React - The Complete Guide, coded by YAL."
+    },
+    {
       "title": "The Wild Oasis 度假村網站",
       "skills": ["HTML+CSS", "JavaScript", "Next.js", "Supabase", "Tailwind"],
       "content_zh": "為顧客帶來流暢且美觀的瀏覽體驗。在這裡，顧客可以輕鬆瀏覽度假村的詳細介紹，並查看每個獨特小木屋的價格。透過 Google 帳號登入，顧客更能使用方便的日曆功能，直接預訂心儀的住宿日期。此外，還可以在個人頁面中隨時查看自己的預訂紀錄。",
